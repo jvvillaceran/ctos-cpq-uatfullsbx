@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Act_Build_Fin_Date__c</fullName>
+    <description>The date that the build in M3 finished.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date that the build in M3 finished.</inlineHelpText>
+    <label>M3 Actual Fin Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

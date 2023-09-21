@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conga_Composer_Send_Warranty_Forms</fullName>
+    <availability>online</availability>
+    <description>Created by Conga Solution Manager. Record link: https://utility1source--apxtconga4.na82.visual.force.com/a0I1R00000dRoHLUA0.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>false</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>660</height>
+    <isResizable>false</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Send Warranty Forms</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!SBQQ__Quote__c.Id}
+
+&amp;QueryId=[WarrantyChevrolet]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DChevrolet,
+[WarrantyDodge]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DDodge,
+[WarrantyElliott]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DElliott,
+[WarrantyFord]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DFord,
+[WarrantyFreightliner]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DFreightliner,
+[WarrantyGEHL]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DGEHL,
+[WarrantyHivac]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DHivac,
+[WarrantyHyva]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DHyva,
+[WarrantyIHIKato]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DIHI+Kato,
+[WarrantyInter]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DInternational,
+[WarrantyKenworth]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DKenworth,
+[WarrantyLoadKing]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DLoad+King,
+[WarrantyMack]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DMack,
+[WarrantyMorooka]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DMorooka,
+[WarrantyNational]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DNational,
+[WarrantyPeterbilt]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DPeterbilt,
+[WarrantyTerex]0Q_028UAC983480%3Fpv0%3D{!SBQQ__Quote__c.Id}~pv1%3DTerex
+
+&amp;CSEmailSubject=Custom+Truck+One+Source+Warranty+Documents+for+Signature
+&amp;CSEmailMessage=Signature+needed+to+activate+warranty
+&amp;WordStripIfs=1
+&amp;OFN={!SBQQ__Quote__c.SBQQ__Account__c}+Warranty+Forms+{!SBQQ__Quote__c.Name}
+&amp;TemplateId={!SBQQ__Quote__c.Conga_Warranty_Templates__c}
+&amp;TemplateGroup=NOTHING
+&amp;DefaultPDF=1
+&amp;SC0=0
+&amp;DS0=o
+&amp;DS4=1
+&amp;CSVisible=1
+&amp;CSRecipient1={!SBQQ__Quote__c.SBQQ__PrimaryContactId__c}
+&amp;CSRole1=SIGNER
+&amp;ContactId={!SBQQ__Quote__c.SBQQ__PrimaryContactId__c}
+&amp;CSRequestReminder=1
+&amp;contentVisibility=SharedUsers
+&amp;contentShareType=I
+&amp;ContentWorkspaceId=0581R000001Hz6I
+&amp;ContentCustomFieldName=Conga_Merge__c
+&amp;ContentCustomFieldValue=Warranty|{!SBQQ__Quote__c.Id}</url>
+    <width>900</width>
+</WebLink>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QLs</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Condition__c</columns>
+    <columns>Unit_Status__c</columns>
+    <columns>Line_Description__c</columns>
+    <columns>M3_CON__c</columns>
+    <columns>VIN__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>M3_CON__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Open_Title_Requests__c</field>
+        <operation>lessThan</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Unit_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <filters>
+        <field>ProductType__c</field>
+        <operation>equals</operation>
+        <value>Inventory,Package,Custom</value>
+    </filters>
+    <label>~QLs with COs and no Open Title Request</label>
+</ListView>

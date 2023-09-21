@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Closed_Lost</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(Unit_Status__c),ISPICKVAL(Unit_Status__c, "Closed Lost"), SBQQ__Quote__r.SBQQ__LineItemCount__c = 1, Quote_Status__c &lt;&gt; "Closed Lost" )</errorConditionFormula>
+    <errorMessage>The Opportunity must be marked Closed Lost with a Loss Reason before you can mark this Quote Line as Closed Lost.</errorMessage>
+</ValidationRule>

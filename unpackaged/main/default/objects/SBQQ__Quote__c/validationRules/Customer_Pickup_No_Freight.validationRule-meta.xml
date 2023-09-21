@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Pickup_No_Freight</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(SBQQ__DeliveryMethod__c) = 'Customer Pickup', Freight__c &gt; 0)</errorConditionFormula>
+    <errorMessage>No freight charges allowed if Delivery Method is Customer Pickup.</errorMessage>
+</ValidationRule>

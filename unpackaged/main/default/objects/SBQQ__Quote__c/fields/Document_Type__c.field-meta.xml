@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Document Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quote</fullName>
+                <default>true</default>
+                <label>Quote</label>
+            </value>
+            <value>
+                <fullName>RBO - Kansas City</fullName>
+                <default>false</default>
+                <label>RBO - Kansas City</label>
+            </value>
+            <value>
+                <fullName>RBO - FEVA</fullName>
+                <default>false</default>
+                <label>RBO - FEVA</label>
+            </value>
+            <value>
+                <fullName>RBO - Florida</fullName>
+                <default>false</default>
+                <label>RBO - Florida</label>
+            </value>
+            <value>
+                <fullName>RBO - Texas</fullName>
+                <default>false</default>
+                <label>RBO - Texas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

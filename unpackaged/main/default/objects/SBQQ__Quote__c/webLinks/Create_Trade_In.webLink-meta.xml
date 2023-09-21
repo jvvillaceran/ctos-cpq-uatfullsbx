@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Trade_In</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Create Trade-In</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/Trade_In_Generator_Quote?recordId={!SBQQ__Quote__c.Id}&amp;OpportunityID={!SBQQ__Quote__c.SBQQ__Opportunity2Id__c}&amp;flowLayout=twoColumn&amp;retURL={!SBQQ__Quote__c.Id}</url>
+</WebLink>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Hwy_Off_Road__c</fullName>
+    <description>Used to determine Legal Entity and CO Automation</description>
+    <externalId>false</externalId>
+    <label>On Hwy Off Road</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OFF-ROAD</fullName>
+                <default>false</default>
+                <label>OFF-ROAD</label>
+            </value>
+            <value>
+                <fullName>ON-HWY</fullName>
+                <default>false</default>
+                <label>ON-HWY</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

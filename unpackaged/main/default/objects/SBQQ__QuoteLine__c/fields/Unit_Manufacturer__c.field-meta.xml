@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Manufacturer__c</fullName>
+    <externalId>false</externalId>
+    <label>M3 Attachment Make</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Condor</fullName>
+                <default>false</default>
+                <label>Condor</label>
+            </value>
+            <value>
+                <fullName>Knapheide</fullName>
+                <default>false</default>
+                <label>Knapheide</label>
+            </value>
+            <value>
+                <fullName>Galbreath</fullName>
+                <default>false</default>
+                <label>Galbreath</label>
+            </value>
+            <value>
+                <fullName>Versalift</fullName>
+                <default>false</default>
+                <label>Versalift</label>
+            </value>
+            <value>
+                <fullName>Terex Ut</fullName>
+                <default>false</default>
+                <label>Terex Ut</label>
+            </value>
+            <value>
+                <fullName>CFE</fullName>
+                <default>false</default>
+                <label>CFE</label>
+            </value>
+            <value>
+                <fullName>Rotobec</fullName>
+                <default>false</default>
+                <label>Rotobec</label>
+            </value>
+            <value>
+                <fullName>Elliott</fullName>
+                <default>false</default>
+                <label>Elliott</label>
+            </value>
+            <value>
+                <fullName>FASSI</fullName>
+                <default>false</default>
+                <label>FASSI</label>
+            </value>
+            <value>
+                <fullName>Parkhurst</fullName>
+                <default>false</default>
+                <label>Parkhurst</label>
+            </value>
+            <value>
+                <fullName>OX BODIES</fullName>
+                <default>false</default>
+                <label>OX BODIES</label>
+            </value>
+            <value>
+                <fullName>Load King</fullName>
+                <default>false</default>
+                <label>Load King</label>
+            </value>
+            <value>
+                <fullName>IMT</fullName>
+                <default>false</default>
+                <label>IMT</label>
+            </value>
+            <value>
+                <fullName>National</fullName>
+                <default>false</default>
+                <label>National</label>
+            </value>
+            <value>
+                <fullName>Altec</fullName>
+                <default>false</default>
+                <label>Altec</label>
+            </value>
+            <value>
+                <fullName>Tornado Global</fullName>
+                <default>false</default>
+                <label>Tornado Global</label>
+            </value>
+            <value>
+                <fullName>AMREP</fullName>
+                <default>false</default>
+                <label>AMREP</label>
+            </value>
+            <value>
+                <fullName>Trinity Containers</fullName>
+                <default>false</default>
+                <label>Trinity Containers</label>
+            </value>
+            <value>
+                <fullName>Spiradrill</fullName>
+                <default>false</default>
+                <label>Spiradrill</label>
+            </value>
+            <value>
+                <fullName>Skylift</fullName>
+                <default>false</default>
+                <label>Skylift</label>
+            </value>
+            <value>
+                <fullName>CUSCO</fullName>
+                <default>false</default>
+                <label>CUSCO</label>
+            </value>
+            <value>
+                <fullName>E-Z Pack</fullName>
+                <default>false</default>
+                <label>E-Z Pack</label>
+            </value>
+            <value>
+                <fullName>X-Vac</fullName>
+                <default>false</default>
+                <label>X-Vac</label>
+            </value>
+            <value>
+                <fullName>Posi+</fullName>
+                <default>false</default>
+                <label>Posi+</label>
+            </value>
+            <value>
+                <fullName>Kruz Inc</fullName>
+                <default>false</default>
+                <label>Kruz Inc</label>
+            </value>
+            <value>
+                <fullName>Palfinger</fullName>
+                <default>false</default>
+                <label>Palfinger</label>
+            </value>
+            <value>
+                <fullName>READING</fullName>
+                <default>false</default>
+                <label>READING</label>
+            </value>
+            <value>
+                <fullName>Westech</fullName>
+                <default>false</default>
+                <label>Westech</label>
+            </value>
+            <value>
+                <fullName>Aquatech</fullName>
+                <default>false</default>
+                <label>Aquatech</label>
+            </value>
+            <value>
+                <fullName>PM North America</fullName>
+                <default>false</default>
+                <label>PM North America</label>
+            </value>
+            <value>
+                <fullName>Vantage</fullName>
+                <default>false</default>
+                <label>Vantage</label>
+            </value>
+            <value>
+                <fullName>J-CRAFT</fullName>
+                <default>false</default>
+                <label>J-CRAFT</label>
+            </value>
+            <value>
+                <fullName>Manitowoc</fullName>
+                <default>false</default>
+                <label>Manitowoc</label>
+            </value>
+            <value>
+                <fullName>Davis</fullName>
+                <default>false</default>
+                <label>Davis</label>
+            </value>
+            <value>
+                <fullName>TEREX</fullName>
+                <default>false</default>
+                <label>TEREX</label>
+            </value>
+            <value>
+                <fullName>Doosan</fullName>
+                <default>false</default>
+                <label>Doosan</label>
+            </value>
+            <value>
+                <fullName>RING-O-MATIC</fullName>
+                <default>false</default>
+                <label>RING-O-MATIC</label>
+            </value>
+            <value>
+                <fullName>Brandon</fullName>
+                <default>false</default>
+                <label>Brandon</label>
+            </value>
+            <value>
+                <fullName>Tadano</fullName>
+                <default>false</default>
+                <label>Tadano</label>
+            </value>
+            <value>
+                <fullName>Hyva Crane</fullName>
+                <default>false</default>
+                <label>Hyva Crane</label>
+            </value>
+            <value>
+                <fullName>SERCO</fullName>
+                <default>false</default>
+                <label>SERCO</label>
+            </value>
+            <value>
+                <fullName>Olympic</fullName>
+                <default>false</default>
+                <label>Olympic</label>
+            </value>
+            <value>
+                <fullName>Builtrite</fullName>
+                <default>false</default>
+                <label>Builtrite</label>
+            </value>
+            <value>
+                <fullName>Global Vaccuum Systems</fullName>
+                <default>false</default>
+                <label>Global Vaccuum Systems</label>
+            </value>
+            <value>
+                <fullName>Mid-State Tank</fullName>
+                <default>false</default>
+                <label>Mid-State Tank</label>
+            </value>
+            <value>
+                <fullName>ZEE</fullName>
+                <default>false</default>
+                <label>ZEE</label>
+            </value>
+            <value>
+                <fullName>Manitex</fullName>
+                <default>false</default>
+                <label>Manitex</label>
+            </value>
+            <value>
+                <fullName>Imperial Industries</fullName>
+                <default>false</default>
+                <label>Imperial Industries</label>
+            </value>
+            <value>
+                <fullName>LIFTMOORE</fullName>
+                <default>false</default>
+                <label>LIFTMOORE</label>
+            </value>
+            <value>
+                <fullName>Global Vacuum Systems</fullName>
+                <default>false</default>
+                <label>Global Vacuum Systems</label>
+            </value>
+            <value>
+                <fullName>K-Pac</fullName>
+                <default>false</default>
+                <label>K-Pac</label>
+            </value>
+            <value>
+                <fullName>ETI</fullName>
+                <default>false</default>
+                <label>ETI</label>
+            </value>
+            <value>
+                <fullName>Hyva</fullName>
+                <default>false</default>
+                <label>Hyva</label>
+            </value>
+            <value>
+                <fullName>AUTO CRANE</fullName>
+                <default>false</default>
+                <label>AUTO CRANE</label>
+            </value>
+            <value>
+                <fullName>National Butane Gas</fullName>
+                <default>false</default>
+                <label>National Butane Gas</label>
+            </value>
+            <value>
+                <fullName>DAVIDSON TANK</fullName>
+                <default>false</default>
+                <label>DAVIDSON TANK</label>
+            </value>
+            <value>
+                <fullName>Kenco</fullName>
+                <default>false</default>
+                <label>Kenco</label>
+            </value>
+            <value>
+                <fullName>Loadmaster</fullName>
+                <default>false</default>
+                <label>Loadmaster</label>
+            </value>
+            <value>
+                <fullName>SoCal Bodies</fullName>
+                <default>false</default>
+                <label>SoCal Bodies</label>
+            </value>
+            <value>
+                <fullName>DAKOTA</fullName>
+                <default>false</default>
+                <label>DAKOTA</label>
+            </value>
+            <value>
+                <fullName>DURACLASS</fullName>
+                <default>false</default>
+                <label>DURACLASS</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIAL META</fullName>
+                <default>false</default>
+                <label>INDUSTRIAL META</label>
+            </value>
+            <value>
+                <fullName>MARION</fullName>
+                <default>false</default>
+                <label>MARION</label>
+            </value>
+            <value>
+                <fullName>PRECISION</fullName>
+                <default>false</default>
+                <label>PRECISION</label>
+            </value>
+            <value>
+                <fullName>Godwin</fullName>
+                <default>false</default>
+                <label>Godwin</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

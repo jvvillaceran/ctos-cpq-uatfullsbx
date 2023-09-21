@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_For_Rent__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR(Total_Rental_Price__c = 0, ispickval(Unit_Status__c,"Closed Lost"),ispickval( SBQQ__Quote__r.SBQQ__Type__c,
+"Sale"), Approved__c = false, AND(SBQQ__Product__r.RBO_in_Process__c = true,
+QuoteLine_Presented__c = false)), "NO", "YES")</formula>
+    <label>Valid For Rent</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

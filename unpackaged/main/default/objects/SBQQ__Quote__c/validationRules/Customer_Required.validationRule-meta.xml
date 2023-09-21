@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>SBQQ__Account__c = ""</errorConditionFormula>
+    <errorMessage>Please enter a valid Customer before saving</errorMessage>
+</ValidationRule>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warranty_to_Send</fullName>
+    <columns>VIN__c</columns>
+    <columns>Body_SN__c</columns>
+    <columns>Bed_Body_SN__c</columns>
+    <columns>NAME</columns>
+    <columns>SBQQ__Quote__c</columns>
+    <columns>Delivery_Date__c</columns>
+    <columns>Sales_Rep__c</columns>
+    <columns>Account__c</columns>
+    <columns>Warranty_Primary__c</columns>
+    <columns>Warranty_Secondary__c</columns>
+    <columns>Product_Make__c</columns>
+    <columns>Attached_Body__c</columns>
+    <columns>Dealer__c</columns>
+    <columns>Mileage2__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Condition__c</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>ProductType__c</field>
+        <operation>equals</operation>
+        <value>Inventory,Package,Custom</value>
+    </filters>
+    <filters>
+        <field>Delivery_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Warranty_Forms_sent_to_Customer__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Warranty to Send</label>
+</ListView>

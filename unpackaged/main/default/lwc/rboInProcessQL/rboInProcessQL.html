@@ -1,0 +1,31 @@
+<template>
+    <div class="main">
+        <!-- Make the word "cannot" red-->
+        <h1>This Quote has a Quote Line using a Vin that is marked RBO in process for a different quote. <span style="color: red; font-weight:bold;"><br>This product must be removed before an RBO can be sent:</span></h1>
+        <!-- table should be centered in 50% of the div-->
+        <div class="container">
+
+        
+
+
+         <table class="table">
+            <tbody>
+                <template if:true={rboInProcessQuoteLinesData}>
+                    <template for:each={rboInProcessQuoteLinesData} for:item="rboInProcessQuoteLine">
+                        <tr data-recordid={rboInProcessQuoteLine.id} key={rboInProcessQuoteLine.id}>
+                            <td onclick={navigateToRecord}>{rboInProcessQuoteLine.Name}</td>
+                            <td>{rboInProcessQuoteLine.Line_Description__c}</td>
+                        </tr>
+                    </template>
+                </template>
+            </tbody>
+        </table>  
+        
+   
+        <!-- <lightning-datatable key-field="Id" data={rboInProcessQuoteLinesData} columns={columns} onrowaction={handleRowAction}>
+        </lightning-datatable> -->
+
+    </div>
+
+    </div>
+</template>

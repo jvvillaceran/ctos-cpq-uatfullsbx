@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>formula_LStatus_Def__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( M3_CO_Low_Status__c = "10", "10-Preliminary",IF( M3_CO_Low_Status__c = "20", "20-No Order Lines",IF( M3_CO_Low_Status__c = "22", "22-Reserved",IF( M3_CO_Low_Status__c = "33", "33-Allocated",IF( M3_CO_Low_Status__c = "44", "44-Pickling List",IF( M3_CO_Low_Status__c = "66", "66-Delivered",IF( M3_CO_Low_Status__c = "77", "77-Invoiced",IF( M3_CO_Low_Status__c = "90", "90-Deleted", M3_CO_Low_Status__c))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>CO Low Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

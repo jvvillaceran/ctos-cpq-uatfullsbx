@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Account_Change</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED( SBQQ__Account__c ), $Profile.Name &lt;&gt; "System Administrator")</errorConditionFormula>
+    <errorDisplayField>SBQQ__Account__c</errorDisplayField>
+    <errorMessage>To change the account on your quote, please contact the System Administrator.</errorMessage>
+</ValidationRule>

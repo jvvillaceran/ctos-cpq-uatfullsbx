@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Florida_RBO__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(AND(Tampa_Location__c, OR( AND(SBQQ__ShippingState__c = 'FL', Texas_Count__c = 0), Florida_Count__c &gt;0)), AND(ISPICKVAL( SBQQ__SalesRep__r.Facility__c , "Tampa"),Texas_Count__c = 0 ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Florida RBO</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

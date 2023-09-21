@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_RBO_Signed_Quote_Lines</fullName>
+    <columns>NAME</columns>
+    <columns>SBQQ__Quote__c</columns>
+    <columns>Unit_Status__c</columns>
+    <columns>Line_Description__c</columns>
+    <columns>Quote_Accepted_Date__c</columns>
+    <columns>VIN__c</columns>
+    <columns>M3_CON__c</columns>
+    <columns>M3_Work_Order__c</columns>
+    <columns>Expected_Delivery_Date__c</columns>
+    <columns>Act_Build_Start_Date__c</columns>
+    <columns>Act_Build_Fin_Date__c</columns>
+    <columns>Proj_Build_Start_Date__c</columns>
+    <columns>Proj_Build_Fin_Date__c</columns>
+    <columns>Truck_Notes__c</columns>
+    <columns>Delivery_Shipping_Notes__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>ProductType__c</field>
+        <operation>contains</operation>
+        <value>inventory,package,custom</value>
+    </filters>
+    <filters>
+        <field>Quote_Accepted_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Quote_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <filters>
+        <field>Unit_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Delivery Receipt,Revenue Recognized,Complete,Closed Lost</value>
+    </filters>
+    <label>My Sold Quote Lines - Not Delivered</label>
+</ListView>

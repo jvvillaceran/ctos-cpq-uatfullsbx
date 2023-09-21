@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M3_Coordinator_South_Quote</fullName>
+    <filterScope>Queue</filterScope>
+    <label>M3 Coordinator South</label>
+    <queue>M3_Coordinator_South</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

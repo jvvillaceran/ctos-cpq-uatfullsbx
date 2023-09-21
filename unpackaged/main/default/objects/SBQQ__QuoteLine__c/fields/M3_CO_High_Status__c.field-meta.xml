@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>M3_CO_High_Status__c</fullName>
+    <description>M3 CO High Status</description>
+    <externalId>false</externalId>
+    <inlineHelpText>90-Deleted
+77-Invoiced
+66-Delivered
+44-Picking List
+33-Allocated
+22-Reserved
+20-No Order Lines
+10-Preliminary</inlineHelpText>
+    <label>M3 CO High Status</label>
+    <length>5</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_contain_underscore</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT(ISBLANK(Item_Number__c)), NOT(CONTAINS(Item_Number__c, "_")))</errorConditionFormula>
+    <errorDisplayField>Item_Number__c</errorDisplayField>
+    <errorMessage>You have not entered a valid format for Item Number. Please enter a valid Item Number or leave blank.</errorMessage>
+</ValidationRule>

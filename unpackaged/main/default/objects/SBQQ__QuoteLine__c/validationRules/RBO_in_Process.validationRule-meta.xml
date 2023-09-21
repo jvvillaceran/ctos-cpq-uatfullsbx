@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RBO_in_Process</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISNEW(), SBQQ__Product__r.RBO_in_Process__c = TRUE, ISPICKVAL(SBQQ__Product__r.Product_Type__c, "Inventory"))</errorConditionFormula>
+    <errorMessage>Cannot add unit(s) with an RBO in Process.</errorMessage>
+</ValidationRule>

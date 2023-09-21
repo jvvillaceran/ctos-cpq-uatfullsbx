@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dynamic_Net_Total__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(SBQQ__Quote__r.Display_Add_on_and_Warranty_Price__c,  
+IF(ISBLANK(SBQQ__ProductOption__c), Total_Package_Price_Freight__c, SBQQ__NetTotal__c),  
+IF(AND(ISBLANK(SBQQ__ProductOption__c), NOT(ISPICKVAL(Product_Type__c, 'Warranty'))), Total_Package_Price_Freight__c, SBQQ__NetTotal__c) )</formula>
+    <label>Dynamic Net Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

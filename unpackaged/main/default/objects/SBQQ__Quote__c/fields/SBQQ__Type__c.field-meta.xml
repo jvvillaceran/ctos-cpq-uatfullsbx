@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates the type of quote.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates the type of quote.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sale</fullName>
+                <default>true</default>
+                <label>Sale</label>
+            </value>
+            <value>
+                <fullName>Rental PreReq</fullName>
+                <default>false</default>
+                <label>Rental PreReq</label>
+            </value>
+            <value>
+                <fullName>Marketplace</fullName>
+                <default>false</default>
+                <label>Marketplace</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

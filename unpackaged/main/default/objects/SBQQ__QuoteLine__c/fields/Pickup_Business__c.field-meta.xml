@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pickup_Business__c</fullName>
+    <externalId>false</externalId>
+    <label>Branch Pickup Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Alvarado</fullName>
+                <default>false</default>
+                <label>Alvarado</label>
+            </value>
+            <value>
+                <fullName>Atlanta</fullName>
+                <default>false</default>
+                <label>Atlanta</label>
+            </value>
+            <value>
+                <fullName>Bakersfield</fullName>
+                <default>false</default>
+                <label>Bakersfield</label>
+            </value>
+            <value>
+                <fullName>Bluffton</fullName>
+                <default>false</default>
+                <label>Bluffton</label>
+            </value>
+            <value>
+                <fullName>Cabot</fullName>
+                <default>false</default>
+                <label>Cabot</label>
+            </value>
+            <value>
+                <fullName>Calgary</fullName>
+                <default>false</default>
+                <label>Calgary</label>
+            </value>
+            <value>
+                <fullName>Canton</fullName>
+                <default>false</default>
+                <label>Canton</label>
+            </value>
+            <value>
+                <fullName>Chicago</fullName>
+                <default>false</default>
+                <label>Chicago</label>
+            </value>
+            <value>
+                <fullName>Cinnaminson</fullName>
+                <default>false</default>
+                <label>Cinnaminson</label>
+            </value>
+            <value>
+                <fullName>CTOS Fort Worth (Rail)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CTOS Fort Worth (Rail)</label>
+            </value>
+            <value>
+                <fullName>Denver</fullName>
+                <default>false</default>
+                <label>Denver</label>
+            </value>
+            <value>
+                <fullName>Elk Point</fullName>
+                <default>false</default>
+                <label>Elk Point</label>
+            </value>
+            <value>
+                <fullName>El Monte</fullName>
+                <default>false</default>
+                <label>El Monte</label>
+            </value>
+            <value>
+                <fullName>Fargo</fullName>
+                <default>false</default>
+                <label>Fargo</label>
+            </value>
+            <value>
+                <fullName>Fontana</fullName>
+                <default>false</default>
+                <label>Fontana</label>
+            </value>
+            <value>
+                <fullName>Fort Worth</fullName>
+                <default>false</default>
+                <label>Fort Worth</label>
+            </value>
+            <value>
+                <fullName>Ft Wayne</fullName>
+                <default>false</default>
+                <label>Ft Wayne</label>
+            </value>
+            <value>
+                <fullName>Hooksett</fullName>
+                <default>false</default>
+                <label>Hooksett</label>
+            </value>
+            <value>
+                <fullName>Houston</fullName>
+                <default>false</default>
+                <label>Houston</label>
+            </value>
+            <value>
+                <fullName>Jackson</fullName>
+                <default>false</default>
+                <label>Jackson</label>
+            </value>
+            <value>
+                <fullName>Kansas City</fullName>
+                <default>false</default>
+                <label>Kansas City</label>
+            </value>
+            <value>
+                <fullName>LKS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Load King Elk Point</label>
+            </value>
+            <value>
+                <fullName>Lynchburg</fullName>
+                <default>false</default>
+                <label>Lynchburg</label>
+            </value>
+            <value>
+                <fullName>Midland</fullName>
+                <default>false</default>
+                <label>Midland</label>
+            </value>
+            <value>
+                <fullName>Nashua</fullName>
+                <default>false</default>
+                <label>Nashua</label>
+            </value>
+            <value>
+                <fullName>New Haven</fullName>
+                <default>false</default>
+                <label>New Haven</label>
+            </value>
+            <value>
+                <fullName>Oklahoma City</fullName>
+                <default>false</default>
+                <label>Oklahoma City</label>
+            </value>
+            <value>
+                <fullName>Ontario</fullName>
+                <default>false</default>
+                <label>Ontario</label>
+            </value>
+            <value>
+                <fullName>Poulsbo</fullName>
+                <default>false</default>
+                <label>Poulsbo</label>
+            </value>
+            <value>
+                <fullName>Sedalia</fullName>
+                <default>false</default>
+                <label>Sedalia</label>
+            </value>
+            <value>
+                <fullName>St Paul</fullName>
+                <default>false</default>
+                <label>St Paul</label>
+            </value>
+            <value>
+                <fullName>Syracuse</fullName>
+                <default>false</default>
+                <label>Syracuse</label>
+            </value>
+            <value>
+                <fullName>Tallahassee</fullName>
+                <default>false</default>
+                <label>Tallahassee</label>
+            </value>
+            <value>
+                <fullName>Tampa</fullName>
+                <default>false</default>
+                <label>Tampa</label>
+            </value>
+            <value>
+                <fullName>Union Grove</fullName>
+                <default>false</default>
+                <label>Union Grove</label>
+            </value>
+            <value>
+                <fullName>West Allis</fullName>
+                <default>false</default>
+                <label>West Allis</label>
+            </value>
+            <value>
+                <fullName>Wilkes-Barre</fullName>
+                <default>false</default>
+                <label>Wilkes-Barre</label>
+            </value>
+            <value>
+                <fullName>Yuma</fullName>
+                <default>false</default>
+                <label>Yuma</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsMine__c</fullName>
+    <externalId>false</externalId>
+    <formula>M3_Coordinator__c  = $User.Id ||
+ OwnerId = $User.Id ||
+ Quote_Request__r.Assigned_To__c  = $User.Id ||
+ Quote_Request__r.Quote_By__c   = $User.Id</formula>
+    <label>IsMine</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

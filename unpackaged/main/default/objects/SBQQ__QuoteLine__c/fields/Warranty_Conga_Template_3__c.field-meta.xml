@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warranty_Conga_Template_3__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+Condition__c = "New",
+CASE(Warranty_Secondary__c,
+"Chevrolet", "0T_135UAC806133",
+"Dodge", "0T_00006oRSgUAM",
+"Elliott","0T_144UAC930301",
+"Ford", "0T_138UAC770705",
+"Freightliner", "0T_137UAC371291",
+"Galbreath", "0T_189EAI069440",
+"GEHL","0T_145UAC400686",
+"Hivac","0T_170EAI907037",
+"Hyva","0T_146UAC252598",
+"IHI Kato","0T_147UAC324237",
+"International", "0T_139UAC743729",
+"Kenworth", "0T_140UAC408985",
+"Load King", "0T_141UAC712676",
+"Mack", "0T_133UAC273109",
+"Morooka","0T_148UAC207519",
+"National","0T_149UAC061390",
+"Peterbilt", "0T_134UAC848816",
+"Terex", "0T_142UAC719627",
+""
+),""
+)</formula>
+    <label>Secondary Warranty Template</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

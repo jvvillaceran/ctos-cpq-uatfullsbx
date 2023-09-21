@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <description>Create New Library using screen flow to be used as an Action</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>inputNameNoWhiteSpace</name>
+        <dataType>String</dataType>
+        <expression>TRIM({!Name})</expression>
+    </formulas>
+    <formulas>
+        <name>nameWithUnderscores</name>
+        <dataType>String</dataType>
+        <expression>SUBSTITUTE({!inputNameNoWhiteSpace}, &quot; &quot;, &quot;_&quot;)</expression>
+    </formulas>
+    <interviewLabel>Create New Library {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Create New Library</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Create_Library</name>
+        <label>Create Library</label>
+        <locationX>176</locationX>
+        <locationY>242</locationY>
+        <inputAssignments>
+            <field>DeveloperName</field>
+            <value>
+                <elementReference>nameWithUnderscores</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>inputNameNoWhiteSpace</elementReference>
+            </value>
+        </inputAssignments>
+        <object>ContentWorkspace</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <screens>
+        <name>Input_Screen</name>
+        <label>Input Screen</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Create_Library</targetReference>
+        </connector>
+        <fields>
+            <name>Name</name>
+            <dataType>String</dataType>
+            <fieldText>Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Input_Screen</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>

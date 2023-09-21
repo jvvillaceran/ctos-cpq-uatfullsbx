@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketplace_QL</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(SBQQ__Product__r.Name = "MARKETPLACE", NOT(ISPICKVAL(SBQQ__Quote__r.SBQQ__Type__c , "Marketplace")) )</errorConditionFormula>
+    <errorMessage>Marketplace product can only be entered on a Marketplace quote.</errorMessage>
+</ValidationRule>

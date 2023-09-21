@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Quotes_ALL_Not_Closed_Lost</fullName>
+    <columns>NAME</columns>
+    <columns>SBQQ__Account__c</columns>
+    <columns>SBQQ__PrimaryContact__c</columns>
+    <columns>SBQQ__Opportunity2__c</columns>
+    <columns>SBQQ__NetAmount__c</columns>
+    <columns>SBQQ__Status__c</columns>
+    <columns>SBQQ__SalesRep__c</columns>
+    <columns>OWNER.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>SBQQ__Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <label>My Quotes - ALL (Not Closed Lost)</label>
+</ListView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FEVA_Packet</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>FEVA Packet</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!SBQQ__QuoteLine__c.Id}
+
+&amp;QueryId=[QuoteInfo]0Q_027EAI060995
+
+&amp;TemplateId=0T_185EAI986269
+
+&amp;WordStripIfs=1
+&amp;CSVisible=1
+&amp;CSRecipient1={!SBQQ__Quote__c.SBQQ__PrimaryContactId__c}
+&amp;CSRole1=SIGNER
+&amp;CSRecipient2={!SBQQ__Quote__c.Sales_Rep_s_ManagerId__c}
+&amp;CSRole2=SIGNER
+&amp;DefaultPDF=1
+&amp;CSRoutingType=SERIAL
+&amp;CSExpiration={!TEXT(TODAY()+6)}T05:59:59.000Z
+&amp;CSRequestReminder=1
+&amp;CSExpirationReminder={!TEXT(TODAY()+3)}T05:59:59.000Z
+&amp;SC0=1
+&amp;DS0=0
+&amp;DS4=1
+&amp;TemplateGroup=NOTHING
+&amp;OFN=Packet+for+{!SBQQ__QuoteLine__c.VIN__c}+-+{!SBQQ__QuoteLine__c.Name}+{!SBQQ__QuoteLine__c.Account__c}
+&amp;contentVisibility=SharedUsers
+&amp;contentShareType=I
+&amp;ContentWorkspaceId=0581R000001Hz6I
+&amp;ContentCustomFieldName=Conga_Merge__c
+&amp;ContentCustomFieldValue=Packet|{!SBQQ__QuoteLine__c.Id}
+&amp;CSEmailSubject=Custom+Truck+One+Source+Document+Packet+for+VIN:+{!SBQQ__QuoteLine__c.VIN__c}+{!SBQQ__QuoteLine__c.Account__c}
+&amp;CSEmailMessage=Please+review+the+document+packet+for+accuracy+and+completeness,+then+sign+and+return.
+&amp;ContactId={!SBQQ__Quote__c.SBQQ__PrimaryContactId__c}
+&amp;SC1=attachments</url>
+</WebLink>

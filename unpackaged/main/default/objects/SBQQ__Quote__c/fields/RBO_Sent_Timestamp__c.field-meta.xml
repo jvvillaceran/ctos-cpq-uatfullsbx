@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RBO_Sent_Timestamp__c</fullName>
+    <description>Field to log every new RBO sent used by SlotAssignment Apex Class</description>
+    <externalId>false</externalId>
+    <label>RBO Sent Timestamp</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

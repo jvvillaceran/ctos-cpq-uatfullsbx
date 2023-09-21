@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Teams_Rental_Pre_Req_Quote_Lines</fullName>
+    <columns>Sales_Rep__c</columns>
+    <columns>Account__c</columns>
+    <columns>NAME</columns>
+    <columns>SBQQ__Quote__c</columns>
+    <columns>Unit_Status__c</columns>
+    <columns>SBQQ__ProductCode__c</columns>
+    <columns>Line_Description__c</columns>
+    <columns>Quote_Accepted_Date__c</columns>
+    <columns>SBQQ__NetPrice__c</columns>
+    <columns>M3_CON__c</columns>
+    <columns>M3_Work_Order__c</columns>
+    <columns>VIN__c</columns>
+    <columns>Expected_Delivery_Date__c</columns>
+    <columns>Truck_Notes__c</columns>
+    <columns>Delivery_Shipping_Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Unit_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Revenue Recognized,MSO Coordination,TT&amp;L Documentation Coordination,Warranty,Complete,Closed Lost</value>
+    </filters>
+    <filters>
+        <field>ProductType__c</field>
+        <operation>contains</operation>
+        <value>inventory,package,custom</value>
+    </filters>
+    <filters>
+        <field>Quote_Type__c</field>
+        <operation>contains</operation>
+        <value>Rental Pre</value>
+    </filters>
+    <filters>
+        <field>Quote_Accepted_Date__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>My Teams Rental Pre-Req Open Quote Lines</label>
+</ListView>

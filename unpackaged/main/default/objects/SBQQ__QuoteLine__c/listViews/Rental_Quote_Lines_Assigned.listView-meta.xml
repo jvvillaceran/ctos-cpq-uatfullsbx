@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rental_Quote_Lines_Assigned</fullName>
+    <columns>SBQQ__Quote__c</columns>
+    <columns>NAME</columns>
+    <columns>SBQQ__ProductCode__c</columns>
+    <columns>Account__c</columns>
+    <columns>Line_Description__c</columns>
+    <columns>Sales_Rep__c</columns>
+    <columns>Quote_Accepted_Date__c</columns>
+    <columns>Quote_M3_Coordinator__c</columns>
+    <columns>M3_CON__c</columns>
+    <columns>M3_CO_Low_Status__c</columns>
+    <columns>M3_CO_High_Status__c</columns>
+    <columns>M3_Work_Order__c</columns>
+    <columns>VIN__c</columns>
+    <columns>M3_Notes__c</columns>
+    <columns>Region__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Quote_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Closed Lost</value>
+    </filters>
+    <filters>
+        <field>ProductType__c</field>
+        <operation>contains</operation>
+        <value>inventory,package,custom</value>
+    </filters>
+    <filters>
+        <field>Quote_Accepted_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>6/1/2021</value>
+    </filters>
+    <filters>
+        <field>Unit_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Complete,Closed Lost</value>
+    </filters>
+    <filters>
+        <field>Quote_M3_Coordinator__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Quote_Type__c</field>
+        <operation>contains</operation>
+        <value>rental</value>
+    </filters>
+    <label>Rental Quote Lines - Assigned</label>
+    <sharedTo>
+        <role>Acctg_Ops</role>
+    </sharedTo>
+</ListView>

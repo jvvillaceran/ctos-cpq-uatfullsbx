@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_RBO_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(
+
+AND(
+ISPICKVAL(SBQQ__Type__c, 'Sale'),
+Quote_Line_with_Inactive_Product__c = 0,
+Unapproved_QL__c = 0,
+NOT(ISPICKVAL(SBQQ__Account__r.Type, 'Pending Approval')),
+NOT(ISPICKVAL(SBQQ__Status__c, 'Closed Lost')),
+X0_dollar_lines__c  = 0,
+Status_Approved_Presented__c = True,
+Quote_Expired__c = False,
+IF(NOT(ISBLANK(Quote_Request__c)), ISPICKVAL(Quote_Request__r.Quote_Status__c, 'Complete'), True) 
+),
+
+AND(
+ISPICKVAL(SBQQ__Type__c, 'Sale'),
+Quote_Line_with_Inactive_Product__c = 0,
+Unapproved_QL__c = 0,
+NOT(ISPICKVAL(SBQQ__Account__r.Type, 'Pending Approval')),
+NOT(ISPICKVAL(SBQQ__Status__c, 'Closed Lost')),
+X0_dollar_lines__c  = 0,
+ISPICKVAL(SBQQ__Status__c, 'Accepted'),
+Quote_Expired__c = False,
+IF(NOT(ISBLANK(Quote_Request__c)), ISPICKVAL(Quote_Request__r.Quote_Status__c, 'Complete'), True) 
+),
+
+AND(
+ISPICKVAL(SBQQ__Type__c, 'Sale'),
+Quote_Line_with_Inactive_Product__c = 0,
+Unapproved_QL__c = 0,
+NOT(ISPICKVAL(SBQQ__Account__r.Type, 'Pending Approval')),
+NOT(ISPICKVAL(SBQQ__Status__c, 'Closed Lost')),
+X0_dollar_lines__c  = 0,
+ISPICKVAL(SBQQ__Status__c, 'Accepted'),
+Quote_Expired__c = True,
+IF(NOT(ISBLANK(Quote_Request__c)), ISPICKVAL(Quote_Request__r.Quote_Status__c, 'Complete'), True) 
+)
+
+
+)</formula>
+    <label>Send RBO Formula</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

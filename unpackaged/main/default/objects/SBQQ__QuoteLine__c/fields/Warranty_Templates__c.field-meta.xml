@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warranty_Templates__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK(Warranty_Conga_Template_3__c) ,  Warranty_Conga_Template_2__c , Warranty_Conga_Template_2__c&amp;", "&amp;Warranty_Conga_Template_3__c)</formula>
+    <label>Warranty Templates</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

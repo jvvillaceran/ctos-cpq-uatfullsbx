@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rental_Pre_Req</fullName>
+    <availability>online</availability>
+    <description>Generates and sends the Rental Pre Req for units not currently in the Rental Fleet.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Rental Pre Req</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!SBQQ__Quote__c.Id}
+
+&amp;QueryId=[RentalPreReq]0Q_021UAA947447,
+&amp;UF0=1
+&amp;MFTS0=Presented__c
+&amp;MFTSValue0=True
+&amp;MFTS1=SBQQ__Status__c
+&amp;MFTSValue1=Presented
+&amp;WordStripIfs=1
+&amp;CSVisible=1
+&amp;DefaultPDF=1
+&amp;CSRecipient1=0031R00002f6mXOQAY
+&amp;CSRole1=SIGNER
+&amp;CSRecipient2={!SBQQ__Quote__c.Sales_Rental_CoordinatorId__c}
+&amp;CSRole2=CC
+&amp;CSRoutingType=SERIAL
+&amp;CSExpiration={!TEXT(TODAY()+6)}T05:59:59.000Z
+&amp;CSRequestReminder=1
+&amp;CSExpirationReminder={!TEXT(TODAY()+3)}T05:59:59.000Z
+&amp;SC0=0
+&amp;TemplateId=0T_171UAA932700
+&amp;DS0=0
+&amp;DS4=1
+&amp;TemplateGroup=NOTHING
+&amp;OFN=Rental+Pre+Req+for+{!SBQQ__Quote__c.Conga_Account_Name__c}+-+{!SBQQ__Quote__c.Name}
+&amp;contentVisibility=SharedUsers
+&amp;contentShareType=I
+&amp;ContentWorkspaceId=0581R000001Hz6I
+&amp;ContentCustomFieldName=Conga_Merge__c
+&amp;ContentCustomFieldValue=RBO|{!SBQQ__Quote__c.Id}
+&amp;CSEmailSubject={!SBQQ__Quote__c.Conga_Account_Name__c}+Rental+Pre+Req+for+Signature
+&amp;CSEmailMessage={!SBQQ__Quote__c.SBQQ__SalesRep__c}+has+sent+you+this+Rental+Pre+Req+for+signature.+Equipment+is+not+reserved+without+your+signature.
+&amp;csmultidocs=0</url>
+</WebLink>

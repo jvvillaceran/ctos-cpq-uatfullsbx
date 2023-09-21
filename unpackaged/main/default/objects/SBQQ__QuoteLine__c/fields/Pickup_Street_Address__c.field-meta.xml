@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pickup_Street_Address__c</fullName>
+    <externalId>false</externalId>
+    <label>Branch Address</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Pickup_Business__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>10808 WEAVER AVENUE S, EL MONTE, CA 91733</fullName>
+                <default>false</default>
+                <label>10808 WEAVER AVENUE S, EL MONTE, CA 91733</label>
+            </value>
+            <value>
+                <fullName>1092 BLACKWATER RD, FOREST, VA 24551</fullName>
+                <default>false</default>
+                <label>1092 BLACKWATER RD, FOREST, VA 24551</label>
+            </value>
+            <value>
+                <fullName>11139 W BECHER STREET, WEST ALLIS, WI, 53227</fullName>
+                <default>false</default>
+                <label>11139 W BECHER STREET, WEST ALLIS, WI, 53227</label>
+            </value>
+            <value>
+                <fullName>12519 W INTERSTATE 20, ODESSA, TX 79766</fullName>
+                <default>false</default>
+                <label>12519 W INTERSTATE 20, ODESSA, TX 79766</label>
+            </value>
+            <value>
+                <fullName>12580 E LYNCHBURG SALEM TURNPIKE, FOREST, VA 24551</fullName>
+                <default>false</default>
+                <label>12580 E LYNCHBURG SALEM TURNPIKE, FOREST, VA 24551</label>
+            </value>
+            <value>
+                <fullName>12660 E LYNCHBURG SALEM TURNPIKE, FOREST, VA 24551</fullName>
+                <default>false</default>
+                <label>12660 E LYNCHBURG SALEM TURNPIKE, FOREST, VA 24551</label>
+            </value>
+            <value>
+                <fullName>1400 E HIGHWAY 67, ALVARADO, TX, 76009</fullName>
+                <default>false</default>
+                <label>1400 E HIGHWAY 67, ALVARADO, TX, 76009</label>
+            </value>
+            <value>
+                <fullName>14670 RANDALL AVENUE, FONTANA, CA 92335</fullName>
+                <default>false</default>
+                <label>14670 RANDALL AVENUE, FONTANA, CA 92335</label>
+            </value>
+            <value>
+                <fullName>1700 LEIDER DRIVE, UNION GROVE, WI 53182</fullName>
+                <default>false</default>
+                <label>1700 LEIDER DRIVE, UNION GROVE, WI 53182</label>
+            </value>
+            <value>
+                <fullName>17 TANGUAY AVE, NASHUA, NH, 03063</fullName>
+                <default>false</default>
+                <label>17 TANGUAY AVE, NASHUA, NH, 03063</label>
+            </value>
+            <value>
+                <fullName>1850 UNION LANDING ROAD, CINNAMINSON, NJ 08077</fullName>
+                <default>false</default>
+                <label>1850 UNION LANDING ROAD, CINNAMINSON, NJ 08077</label>
+            </value>
+            <value>
+                <fullName>18725 MCKAY DRIVE, HUMBLE, TX 77338</fullName>
+                <default>false</default>
+                <label>18725 MCKAY DRIVE, HUMBLE, TX 77338</label>
+            </value>
+            <value>
+                <fullName>2331 S BAKER AVE, ONTARIO, CA, 91761</fullName>
+                <default>false</default>
+                <label>2331 S BAKER AVE, ONTARIO, CA, 91761</label>
+            </value>
+            <value>
+                <fullName>2370 ENGLISH STREET, ST PAUL, MN, 55109</fullName>
+                <default>false</default>
+                <label>2370 ENGLISH STREET, ST PAUL, MN, 55109</label>
+            </value>
+            <value>
+                <fullName>2770 5TH AVE S, FARGO, ND, 58103</fullName>
+                <default>false</default>
+                <label>2770 5TH AVE S, FARGO, ND, 58103</label>
+            </value>
+            <value>
+                <fullName>28767 HOLIDAY PLACE, ELKHART, IN 46517</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>28767 HOLIDAY PLACE, ELKHART, IN 46517</label>
+            </value>
+            <value>
+                <fullName>300 JOHNSON STREET, WILKES-BARRE, PA, 18702</fullName>
+                <default>false</default>
+                <label>300 JOHNSON STREET, WILKES-BARRE, PA, 18702</label>
+            </value>
+            <value>
+                <fullName>3112 E STATE ROAD 124, BLUFFTON, IN, 46714</fullName>
+                <default>false</default>
+                <label>3112 E STATE ROAD 124, BLUFFTON, IN, 46714</label>
+            </value>
+            <value>
+                <fullName>3205 DAVINION RD, EL RENO, OK, 73036-1431</fullName>
+                <default>false</default>
+                <label>3205 DAVINION RD, EL RENO, OK, 73036-1431</label>
+            </value>
+            <value>
+                <fullName>3522 MIDDLEBRANCH AVENUE NE, CANTON, OH 44705</fullName>
+                <default>false</default>
+                <label>3522 MIDDLEBRANCH AVENUE NE, CANTON, OH 44705</label>
+            </value>
+            <value>
+                <fullName>4045 HIGHWAY FIVE, CABOT, AR 72023</fullName>
+                <default>false</default>
+                <label>4045 HIGHWAY FIVE, CABOT, AR 72023</label>
+            </value>
+            <value>
+                <fullName>4334 SNAPFINGER WOODS DRIVE, DECATUR, GA 30035</fullName>
+                <default>false</default>
+                <label>4334 SNAPFINGER WOODS DRIVE, DECATUR, GA 30035</label>
+            </value>
+            <value>
+                <fullName>4500 STATE ROAD, BAKERSFIELD, CA 93308</fullName>
+                <default>false</default>
+                <label>4500 STATE ROAD, BAKERSFIELD, CA 93308</label>
+            </value>
+            <value>
+                <fullName>4729 CAPITAL CIRCLE NW, TALLAHASSEE, FL, 32303</fullName>
+                <default>false</default>
+                <label>4729 CAPITAL CIRCLE NW, TALLAHASSEE, FL, 32303</label>
+            </value>
+            <value>
+                <fullName>5105 PELHAM DRIVE, SEDALIA, MO 65301</fullName>
+                <default>false</default>
+                <label>5105 PELHAM DRIVE, SEDALIA, MO 65301</label>
+            </value>
+            <value>
+                <fullName>5455 E 52ND AVENUE, COMMERCE CITY, CO 80022</fullName>
+                <default>false</default>
+                <label>5455 E 52ND AVENUE, COMMERCE CITY, CO 80022</label>
+            </value>
+            <value>
+                <fullName>5734 NORTHEAST MINDER RD, POUSBO, WA, 98370</fullName>
+                <default>false</default>
+                <label>5734 NORTHEAST MINDER RD, POUSBO, WA, 98370</label>
+            </value>
+            <value>
+                <fullName>655 E 20TH ST, YUMA, AZ, 85365</fullName>
+                <default>false</default>
+                <label>655 E 20TH ST, YUMA, AZ, 85365</label>
+            </value>
+            <value>
+                <fullName>6708 TOWNLINE ROAD, SYRACUSE, NY 13211</fullName>
+                <default>false</default>
+                <label>6708 TOWNLINE ROAD, SYRACUSE, NY 13211</label>
+            </value>
+            <value>
+                <fullName>6714 POINTE IVERNESS WAY, FORT WAYNE, IN, 46804</fullName>
+                <default>false</default>
+                <label>6714 POINTE IVERNESS WAY, FORT WAYNE, IN, 46804</label>
+            </value>
+            <value>
+                <fullName>6 SUTTON CIRCLE, HOOKSETT, NH 03106</fullName>
+                <default>false</default>
+                <label>6 SUTTON CIRCLE, HOOKSETT, NH 03106</label>
+            </value>
+            <value>
+                <fullName>701 E ROSE STREET, ELK POINT, SD 57025</fullName>
+                <default>false</default>
+                <label>701 E ROSE STREET, ELK POINT, SD 57025</label>
+            </value>
+            <value>
+                <fullName>7200 JACK NEWELL BOULEVARD S, FORT WORTH, TX 76118</fullName>
+                <default>false</default>
+                <label>7200 JACK NEWELL BOULEVARD S, FORT WORTH, TX 76118</label>
+            </value>
+            <value>
+                <fullName>7413 IN-930, NEW HAVEN, IN, 46774</fullName>
+                <default>false</default>
+                <label>7413 IN-930, NEW HAVEN, IN, 46774</label>
+            </value>
+            <value>
+                <fullName>7525 PEBBLE DRIVE, FORT WORTH, TX 76118</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>7525 PEBBLE DRIVE, FORT WORTH, TX 76118</label>
+            </value>
+            <value>
+                <fullName>7701 INDEPENDENCE AVENUE, KANSAS CITY, MO 64125</fullName>
+                <default>false</default>
+                <label>7701 INDEPENDENCE AVENUE, KANSAS CITY, MO 64125</label>
+            </value>
+            <value>
+                <fullName>7906 BASELINE COURT, TAMPA, FL 33637</fullName>
+                <default>false</default>
+                <label>7906 BASELINE COURT, TAMPA, FL 33637</label>
+            </value>
+            <value>
+                <fullName>9230 51ST SE, CALGARY, AB T2C 5J8 CANADA</fullName>
+                <default>false</default>
+                <label>9230 51ST SE, CALGARY, AB T2C 5J8 CANADA</label>
+            </value>
+            <value>
+                <fullName>9230 CEDAR KNOLL DRIVE, JACKSON, MI 49240</fullName>
+                <default>false</default>
+                <label>9230 CEDAR KNOLL DRIVE, JACKSON, MI 49240</label>
+            </value>
+            <value>
+                <fullName>9725 INDUSTRIAL DRIVE, BRIDGEVIEW, IL 60455</fullName>
+                <default>false</default>
+                <label>9725 INDUSTRIAL DRIVE, BRIDGEVIEW, IL 60455</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Syracuse</controllingFieldValue>
+            <valueName>6708 TOWNLINE ROAD, SYRACUSE, NY 13211</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tampa</controllingFieldValue>
+            <valueName>7906 BASELINE COURT, TAMPA, FL 33637</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Union Grove</controllingFieldValue>
+            <valueName>1700 LEIDER DRIVE, UNION GROVE, WI 53182</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alvarado</controllingFieldValue>
+            <valueName>1400 E HIGHWAY 67, ALVARADO, TX, 76009</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bluffton</controllingFieldValue>
+            <valueName>3112 E STATE ROAD 124, BLUFFTON, IN, 46714</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fargo</controllingFieldValue>
+            <controllingFieldValue>St Paul</controllingFieldValue>
+            <valueName>2770 5TH AVE S, FARGO, ND, 58103</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ft Wayne</controllingFieldValue>
+            <valueName>6714 POINTE IVERNESS WAY, FORT WAYNE, IN, 46804</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nashua</controllingFieldValue>
+            <valueName>17 TANGUAY AVE, NASHUA, NH, 03063</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Haven</controllingFieldValue>
+            <valueName>7413 IN-930, NEW HAVEN, IN, 46774</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ontario</controllingFieldValue>
+            <valueName>2331 S BAKER AVE, ONTARIO, CA, 91761</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elk Point</controllingFieldValue>
+            <valueName>701 E ROSE STREET, ELK POINT, SD 57025</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Poulsbo</controllingFieldValue>
+            <valueName>5734 NORTHEAST MINDER RD, POUSBO, WA, 98370</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fontana</controllingFieldValue>
+            <valueName>14670 RANDALL AVENUE, FONTANA, CA 92335</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Fort Worth</controllingFieldValue>
+            <valueName>7200 JACK NEWELL BOULEVARD S, FORT WORTH, TX 76118</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tallahassee</controllingFieldValue>
+            <valueName>4729 CAPITAL CIRCLE NW, TALLAHASSEE, FL, 32303</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West Allis</controllingFieldValue>
+            <valueName>11139 W BECHER STREET, WEST ALLIS, WI, 53227</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hooksett</controllingFieldValue>
+            <valueName>6 SUTTON CIRCLE, HOOKSETT, NH 03106</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wilkes-Barre</controllingFieldValue>
+            <valueName>300 JOHNSON STREET, WILKES-BARRE, PA, 18702</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Houston</controllingFieldValue>
+            <valueName>18725 MCKAY DRIVE, HUMBLE, TX 77338</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yuma</controllingFieldValue>
+            <valueName>655 E 20TH ST, YUMA, AZ, 85365</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jackson</controllingFieldValue>
+            <valueName>9230 CEDAR KNOLL DRIVE, JACKSON, MI 49240</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El Monte</controllingFieldValue>
+            <valueName>10808 WEAVER AVENUE S, EL MONTE, CA 91733</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kansas City</controllingFieldValue>
+            <valueName>7701 INDEPENDENCE AVENUE, KANSAS CITY, MO 64125</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lynchburg</controllingFieldValue>
+            <valueName>1092 BLACKWATER RD, FOREST, VA 24551</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lynchburg</controllingFieldValue>
+            <valueName>12580 E LYNCHBURG SALEM TURNPIKE, FOREST, VA 24551</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lynchburg</controllingFieldValue>
+            <valueName>12660 E LYNCHBURG SALEM TURNPIKE, FOREST, VA 24551</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Midland</controllingFieldValue>
+            <valueName>12519 W INTERSTATE 20, ODESSA, TX 79766</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atlanta</controllingFieldValue>
+            <valueName>4334 SNAPFINGER WOODS DRIVE, DECATUR, GA 30035</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bakersfield</controllingFieldValue>
+            <valueName>4500 STATE ROAD, BAKERSFIELD, CA 93308</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cabot</controllingFieldValue>
+            <valueName>4045 HIGHWAY FIVE, CABOT, AR 72023</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calgary</controllingFieldValue>
+            <valueName>9230 51ST SE, CALGARY, AB T2C 5J8 CANADA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canton</controllingFieldValue>
+            <valueName>3522 MIDDLEBRANCH AVENUE NE, CANTON, OH 44705</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chicago</controllingFieldValue>
+            <valueName>9725 INDUSTRIAL DRIVE, BRIDGEVIEW, IL 60455</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cinnaminson</controllingFieldValue>
+            <valueName>1850 UNION LANDING ROAD, CINNAMINSON, NJ 08077</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Denver</controllingFieldValue>
+            <valueName>5455 E 52ND AVENUE, COMMERCE CITY, CO 80022</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Oklahoma City</controllingFieldValue>
+            <valueName>3205 DAVINION RD, EL RENO, OK, 73036-1431</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sedalia</controllingFieldValue>
+            <valueName>5105 PELHAM DRIVE, SEDALIA, MO 65301</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

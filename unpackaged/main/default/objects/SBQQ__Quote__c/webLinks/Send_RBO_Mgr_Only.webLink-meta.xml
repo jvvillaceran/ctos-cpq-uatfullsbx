@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_RBO_Mgr_Only</fullName>
+    <availability>online</availability>
+    <description>RBO for manager signature only. Requires a PO.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Send RBO with PO</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!SBQQ__Quote__c.Id}
+
+&amp;QueryId=[TrucksRBO]0Q_014UAC668108,
+[Quoteline2]0Q_012UAC355309,
+[TradeIn]0Q_007UAC713212
+&amp;WordStripIfs=1
+&amp;CSVisible=1
+&amp;CSRecipient1={!SBQQ__Quote__c.Sales_Rep_s_ManagerId__c}
+&amp;CSRole1=SIGNER
+&amp;ContactId={!SBQQ__Quote__c.SBQQ__PrimaryContactId__c}
+&amp;DefaultPDF=1
+&amp;CSRoutingType=SERIAL
+&amp;CSExpiration={!TEXT(TODAY()+6)}T05:59:59.000Z
+&amp;CSRequestReminder=1
+&amp;CSExpirationReminder={!TEXT(TODAY()+3)}T05:59:59.000Z
+&amp;SC0=0
+&amp;TemplateId=0T_165EAA181389
+&amp;DS0=0
+&amp;DS4=1
+&amp;TemplateGroup=NOTHING
+&amp;OFN=RBO+for+{!SBQQ__Quote__c.Conga_Account_Name__c}+-+{!SBQQ__Quote__c.Name}
+&amp;contentVisibility=SharedUsers
+&amp;contentShareType=I
+&amp;ContentWorkspaceId=0581R000001Hz6I
+&amp;ContentCustomFieldName=Conga_Merge__c
+&amp;ContentCustomFieldValue=RBO|{!SBQQ__Quote__c.Id}
+&amp;CSEmailSubject=Custom+Truck+One+Source+Retail+Buyers+Order+for+Signature
+&amp;CSEmailMessage=Your+sales+rep+has+sent+you+this+contract+for+signature.+Equipment+is+not+reserved+without+your+signature.
+&amp;csmultidocs=0</url>
+</WebLink>

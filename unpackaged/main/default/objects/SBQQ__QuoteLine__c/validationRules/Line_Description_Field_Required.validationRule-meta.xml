@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Line_Description_Field_Required</fullName>
+    <active>false</active>
+    <description>Make the Line Description field required if the Product Type is not equals to Inventory</description>
+    <errorConditionFormula>AND(ISBLANK(Line_Description__c),ISBLANK(Product_Number__c))</errorConditionFormula>
+    <errorDisplayField>Line_Description__c</errorDisplayField>
+    <errorMessage>Line Description Required</errorMessage>
+</ValidationRule>

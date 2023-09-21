@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dynamic_Line_Price__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(SBQQ__Quote__r.Display_Add_on_and_Warranty_Price__c,  SBQQ__NetTotal__c, SBQQ__NetTotal__c + Options_without_Warranty_Total__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Dynamic Line Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

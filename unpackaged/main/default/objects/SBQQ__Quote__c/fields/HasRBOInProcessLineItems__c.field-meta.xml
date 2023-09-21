@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HasRBOInProcessLineItems__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+Count_RBO_In_Process_Line_Items__c &gt; 0,
+Count_Presented_Line_Items__c = 0), Id, 'apex/APXTConga4__Conga_Composer?SolMgr=1&amp;serverUrl=' + $Api.Partner_Server_URL_370 + '&amp;Id=' + Id + '&amp;QueryId=' + '[TrucksRBO]0Q_014UAC668108,[Quoteline2]0Q_012UAC355309,[TradeIn]0Q_007UAC713212,' + '&amp;WordStripIfs=1&amp;CSVisible=1&amp;CSRecipient1=' + SBQQ__PrimaryContact__c + '&amp;CSRole1=SIGNER&amp;ContactId=' + SBQQ__PrimaryContact__c + '&amp;DefaultPDF=1&amp;CSRecipient2=' + Sales_Rep_s_Manager__r.Id + '&amp;CSRoutingType=SERIAL&amp;CSExpiration=' + TEXT(TODAY()+6) + 'T05:59:59.000Z' + '&amp;CSRequestReminder=1&amp;CSRole2=SIGNER&amp;CSExpirationReminder=' + TEXT(TODAY()+3) +'T05:59:59.000Z' + '&amp;TemplateId=' + Conga_RBO_Template_Id__c + '&amp;DS0=0&amp;DS4=1&amp;TemplateGroup=NOTHING&amp;OFN=RBO+for+' + Conga_Account_Name__c + '-' + Name + '&amp;contentVisibility=SharedUsers&amp;contentShareType=I&amp;ContentWorkspaceId=0581R000001Hz6I&amp;ContentCustomFieldName=Conga_Merge__c&amp;ContentCustomFieldValue=RBO|' + Id + '&amp;CSEmailSubject=Custom+Truck+One+Source+Retail+Buyers+Order+for+Signature&amp;CSEmailMessage=Your+sales+rep+has+sent+you+this+contract+for+signature.+Equipment+is+not+reserved+without+your+signature.&amp;csmultidocs=0')</formula>
+    <label>HasRBOInProcessLineItems</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

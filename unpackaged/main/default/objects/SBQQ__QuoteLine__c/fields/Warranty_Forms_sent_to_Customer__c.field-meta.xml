@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warranty_Forms_sent_to_Customer__c</fullName>
+    <description>Date Warranty Forms sent to Customer to Complete</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date Warranty Forms sent to Customer to Complete</inlineHelpText>
+    <label>Warranty Forms sent to Customer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

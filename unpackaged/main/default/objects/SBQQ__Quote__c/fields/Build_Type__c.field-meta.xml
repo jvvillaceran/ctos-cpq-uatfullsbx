@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Build_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TRACK EQUIPMENT</fullName>
+                <default>false</default>
+                <label>TRACK EQUIPMENT</label>
+            </value>
+            <value>
+                <fullName>RAIL</fullName>
+                <default>false</default>
+                <label>RAIL</label>
+            </value>
+            <value>
+                <fullName>FORESTRY</fullName>
+                <default>false</default>
+                <label>FORESTRY</label>
+            </value>
+            <value>
+                <fullName>REFUSE</fullName>
+                <default>false</default>
+                <label>REFUSE</label>
+            </value>
+            <value>
+                <fullName>To Be Defined</fullName>
+                <default>false</default>
+                <label>To Be Defined</label>
+            </value>
+            <value>
+                <fullName>OTHER TRUCKS</fullName>
+                <default>false</default>
+                <label>OTHER TRUCKS</label>
+            </value>
+            <value>
+                <fullName>CRANES</fullName>
+                <default>false</default>
+                <label>CRANES</label>
+            </value>
+            <value>
+                <fullName>UTILITY</fullName>
+                <default>false</default>
+                <label>UTILITY</label>
+            </value>
+            <value>
+                <fullName>TELECOM</fullName>
+                <default>false</default>
+                <label>TELECOM</label>
+            </value>
+            <value>
+                <fullName>PROPANE &amp; FUELS</fullName>
+                <default>false</default>
+                <label>PROPANE &amp; FUELS</label>
+            </value>
+            <value>
+                <fullName>PULLING &amp; STRINGING</fullName>
+                <default>false</default>
+                <label>PULLING &amp; STRINGING</label>
+            </value>
+            <value>
+                <fullName>DUMP TRUCKS</fullName>
+                <default>false</default>
+                <label>DUMP TRUCKS</label>
+            </value>
+            <value>
+                <fullName>BUILDING SUPPLY</fullName>
+                <default>false</default>
+                <label>BUILDING SUPPLY</label>
+            </value>
+            <value>
+                <fullName>SERVICE TRUCKS</fullName>
+                <default>false</default>
+                <label>SERVICE TRUCKS</label>
+            </value>
+            <value>
+                <fullName>CAB &amp; CHASSIS</fullName>
+                <default>false</default>
+                <label>CAB &amp; CHASSIS</label>
+            </value>
+            <value>
+                <fullName>WATER TRUCKS</fullName>
+                <default>false</default>
+                <label>WATER TRUCKS</label>
+            </value>
+            <value>
+                <fullName>TRAILERS</fullName>
+                <default>false</default>
+                <label>TRAILERS</label>
+            </value>
+            <value>
+                <fullName>VACUUM</fullName>
+                <default>false</default>
+                <label>VACUUM</label>
+            </value>
+            <value>
+                <fullName>OTHER (NON-ADDRESSABLE)</fullName>
+                <default>false</default>
+                <label>OTHER (NON-ADDRESSABLE)</label>
+            </value>
+            <value>
+                <fullName>BUSINESS AREA_MASTER TXT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BUSINESS AREA_MASTER TXT</label>
+            </value>
+            <value>
+                <fullName>Boom Truck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Boom Truck</label>
+            </value>
+            <value>
+                <fullName>Box Truck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Box Truck</label>
+            </value>
+            <value>
+                <fullName>Bucket Truck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bucket Truck</label>
+            </value>
+            <value>
+                <fullName>Chip Truck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Chip Truck</label>
+            </value>
+            <value>
+                <fullName>Digger</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Digger</label>
+            </value>
+            <value>
+                <fullName>Dump Truck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dump Truck</label>
+            </value>
+            <value>
+                <fullName>Flatbed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Flatbed</label>
+            </value>
+            <value>
+                <fullName>Fuel Truck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fuel Truck</label>
+            </value>
+            <value>
+                <fullName>Hooklift</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hooklift</label>
+            </value>
+            <value>
+                <fullName>Hydrovac</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hydrovac</label>
+            </value>
+            <value>
+                <fullName>Knuckle-Boom</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Knuckle-Boom</label>
+            </value>
+            <value>
+                <fullName>Lube Truck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lube Truck</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Pickup</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pickup</label>
+            </value>
+            <value>
+                <fullName>Propane</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Propane</label>
+            </value>
+            <value>
+                <fullName>Puller / Tension</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Puller / Tension</label>
+            </value>
+            <value>
+                <fullName>Reel Stands, Trailers, Tensioners</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reel Stands, Trailers, Tensioners</label>
+            </value>
+            <value>
+                <fullName>Refuse/Packer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Refuse/Packer</label>
+            </value>
+            <value>
+                <fullName>Road Tractor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Road Tractor</label>
+            </value>
+            <value>
+                <fullName>Rolloff</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rolloff</label>
+            </value>
+            <value>
+                <fullName>Service Body</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Service Body</label>
+            </value>
+            <value>
+                <fullName>Trailer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Trailer</label>
+            </value>
+            <value>
+                <fullName>UTV</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>UTV</label>
+            </value>
+            <value>
+                <fullName>Water Truck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Water Truck</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

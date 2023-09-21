@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>limitvin</fullName>
+    <active>true</active>
+    <description>Limits the length of VIN field to &gt;17 characters.</description>
+    <errorConditionFormula>LEN( VIN__c )&gt;17</errorConditionFormula>
+    <errorMessage>VIN cannot be greater than 17 characters.</errorMessage>
+</ValidationRule>

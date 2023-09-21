@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Line_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Item_Number__c</fields>
+    <fields>VIN__c</fields>
+    <fields>SBQQ__Product__c</fields>
+    <fields>SBQQ__NetPrice__c</fields>
+    <fields>Account__c</fields>
+    <fields>Change_Order_Indicator__c</fields>
+    <fields>Sales_Rep__c</fields>
+    <label>Quote Line Compact Layout</label>
+</CompactLayout>

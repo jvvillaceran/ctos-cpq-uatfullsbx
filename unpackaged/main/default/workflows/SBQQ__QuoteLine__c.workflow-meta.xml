@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Quote_Line_Quote_Line_with_0_Central</fullName>
+        <description>Quote Line: Quote Line with 0$ Central</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Central</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>UOS/Quote_Line_Quote_Line_with_0</template>
+    </alerts>
+    <alerts>
+        <fullName>Quote_Line_Quote_Line_with_0_Midwest</fullName>
+        <description>Quote Line: Quote Line with 0$ Midwest</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Midwest</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>UOS/Quote_Line_Quote_Line_with_0</template>
+    </alerts>
+    <alerts>
+        <fullName>Quote_Line_Quote_Line_with_0_Northeast</fullName>
+        <description>Quote Line: Quote Line with 0$ Northeast</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Northeast</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>UOS/Quote_Line_Quote_Line_with_0</template>
+    </alerts>
+    <alerts>
+        <fullName>Quote_Line_Quote_Line_with_0_South</fullName>
+        <description>Quote Line: Quote Line with 0$ South</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>South</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>UOS/Quote_Line_Quote_Line_with_0</template>
+    </alerts>
+    <alerts>
+        <fullName>Quote_Line_Quote_Line_with_0_West</fullName>
+        <description>Quote Line: Quote Line with 0$ West</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Inside_Sales_West</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>UOS/Quote_Line_Quote_Line_with_0</template>
+    </alerts>
+</Workflow>

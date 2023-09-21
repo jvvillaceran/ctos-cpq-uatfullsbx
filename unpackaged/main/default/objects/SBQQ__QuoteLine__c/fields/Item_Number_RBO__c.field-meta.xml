@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item_Number_RBO__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(SBQQ__ProductName__c = 'Option/Add-on', 'Custom Add-On',  IF(NOT(ISBLANK(Item_Number__c)), Item_Number__c, ''))</formula>
+    <label>Item Number RBO</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

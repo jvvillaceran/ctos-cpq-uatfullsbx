@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VIN_Locked</fullName>
+    <active>true</active>
+    <description>Prevents the VIN from being manually changed by someone other than the Admin or API</description>
+    <errorConditionFormula>OR(
+   AND(ISCHANGED( VIN__c ), $UserRole.Name &lt;&gt; "Administration", SBQQ__ProductName__c &lt;&gt; "MARKETPLACE"), 
+   AND(ISCHANGED( VIN__c ),  SBQQ__ProductName__c = "MARKETPLACE", $User.Marketplace_User__c = FALSE),
+   AND(ISNEW(), SBQQ__Product__r.Name = "MARKETPLACE", $User.Marketplace_User__c = FALSE),
+   AND(ISNEW(), SBQQ__Product__r.Name &lt;&gt; "MARKETPLACE", ProductType__c &lt;&gt; "Inventory", NOT(ISBLANK(VIN__c))))</errorConditionFormula>
+    <errorMessage>VIN cannot be manually entered on this quote line</errorMessage>
+</ValidationRule>

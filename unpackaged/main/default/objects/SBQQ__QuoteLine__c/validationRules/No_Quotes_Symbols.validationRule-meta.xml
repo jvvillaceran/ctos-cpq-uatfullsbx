@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Quotes_Symbols</fullName>
+    <active>true</active>
+    <errorConditionFormula>CONTAINS( Truck_Notes__c ,"\"" )</errorConditionFormula>
+    <errorMessage>Truck Notes cannot use the " character</errorMessage>
+</ValidationRule>

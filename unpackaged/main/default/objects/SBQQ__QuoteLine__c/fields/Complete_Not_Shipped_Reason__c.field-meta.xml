@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complete_Not_Shipped_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Complete, Not Shipped Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Customer not ready to accept delivery</fullName>
+                <default>false</default>
+                <label>Customer not ready to accept delivery</label>
+            </value>
+            <value>
+                <fullName>Delivery not scheduled</fullName>
+                <default>false</default>
+                <label>Delivery not scheduled</label>
+            </value>
+            <value>
+                <fullName>Payment not received</fullName>
+                <default>false</default>
+                <label>Payment not received</label>
+            </value>
+            <value>
+                <fullName>Sale is now rental</fullName>
+                <default>false</default>
+                <label>Sale is now rental</label>
+            </value>
+            <value>
+                <fullName>Unit is not complete</fullName>
+                <default>false</default>
+                <label>Unit is not complete</label>
+            </value>
+            <value>
+                <fullName>Warranty/Recall</fullName>
+                <default>false</default>
+                <label>Warranty/Recall</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
